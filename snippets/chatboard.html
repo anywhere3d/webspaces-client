@@ -1,0 +1,72 @@
+<style>
+    #chat-input.form-control {min-height:1em;}
+    #chat-board {
+    /*  position:absolute; top:0px; left:0px; right:0px;  */ 
+        bottom:50px; height:400px; padding:10px; 
+        border:1px solid white; border-radius:8px; 
+        overflow:auto;
+    }
+</style>
+
+<div>
+    <h4 style="">Chatboard</h2>
+    <div id="chatboard">
+        <div class="form-group">
+            <input type="text" id="chat-input" name="chat-input" class="form-control">
+        </div>
+        <div id="chat-board"></div>
+    </div>
+</div>
+
+<!-- script>
+/*
+    $(chatInputSelector).on("focus", function(){
+        keyInputControlsOff();
+    });
+
+    $(chatInputSelector).on("blur", function(){
+        keyInputControlsOn();
+    });
+
+    $(chatInputSelector).on("input", function(){});
+
+    $(chatInputSelector).on("change", function(){
+        socket.emit("chat message", { 
+            namespace: playerController.room(), 
+            nickname: $(nicknameSelector).val(),
+            message:  this.val(),
+        });
+        keyInputControlsOn(); // IMPORTANT //
+    });
+
+    socket.on("chat message", function(data){
+        debugMode && console.log("Receiving chat message from server:", data);
+    })
+*/
+/*
+$("#form-chat").on("submit", function(e){
+    e.preventDefault();
+    keyInputControlsOn(); // IMPORTANT //
+});
+*/
+</script -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
